@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Heavy - Under Construction</title>
+  <style>
+    /* Full-on Geocities tackiness */
+    body {
+      background: url('https://www.publicdomainpictures.net/pictures/10000/velka/checkerboard.png') repeat;
+      color: #FFFF00;
+      font-family: 'Chalkboard SE', 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    blink {
+      animation: blinker 1s step-start infinite;
+      color: #FF0000;
+      font-size: 2em;
+    }
+    @keyframes blinker { 50% { opacity: 0; } }
+    marquee {
+      font-size: 2em;
+      color: #00FF00;
+    }
+    a { text-decoration: none; }
+    hr {
+      border: 2px dashed #FFFFFF;
+      width: 50%;
+      margin: 20px auto;
+    }
+    /* Spinning logo */
+    .spin-logo {
+      animation: spin 3s linear infinite;
+      width: 100px;
+      height: auto;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    /* Wrapper for logos and GIF */
+    .gif-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+      flex-wrap: nowrap;
+    }
+    .side-logo {
+      margin: 0 15px;
+    }
+    /* Notice styling for readability */
+    .notice {
+      background: rgba(0, 0, 0, 0.7);
+      color: #FFFF00;
+      text-shadow: 2px 2px 4px #000000;
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    /* Email box styling */
+    .email-box {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 5px 10px;
+      display: inline-block;
+      border: 2px inset #FFFF00;
+      margin: 10px 0;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+      .gif-wrapper {
+        flex-direction: column;
+      }
+      .side-logo {
+        margin: 10px 0;
+        width: 80px;
+      }
+      marquee {
+        font-size: 1.5em;
+      }
+      blink {
+        font-size: 1.5em;
+      }
+      hr { width: 80%; }
+      .notice { font-size: 0.9em; }
+      .email-box { font-size: 0.9em; }
+      table td font { font-size: 1.2em !important; }
+    }
+  </style>
+</head>
+<body>
+  <marquee behavior="alternate" scrollamount="10">** <blink>UNDER CONSTRUCTION</blink> **</marquee>
+
+  <!-- Logos flanking the Under Construction GIF -->
+  <div class="gif-wrapper">
+    <img src="https://res.cloudinary.com/dlyxadp9n/image/upload/v1742775262/TastyLogo2024_i09kgy.png" alt="Tasty Heavy Logo" class="spin-logo side-logo">
+    <img src="https://media.giphy.com/media/U7ld4Vn1xwy3q/giphy.gif" alt="Under Construction GIF">
+    <img src="https://res.cloudinary.com/dlyxadp9n/image/upload/v1742775262/TastyLogo2024_i09kgy.png" alt="Tasty Heavy Logo" class="spin-logo side-logo">
+  </div>
+
+  <p class="notice">Keep in touch with us while we work on our website:</p>
+
+  <table align="center" cellpadding="5" cellspacing="0" border="4" bordercolor="#FFFFFF">
+    <tr>
+      <td bgcolor="#0000FF"><font size="+2" color="#FFFFFF"><a href="https://www.instagram.com/tastyheavy" style="color: #00FF00;">Instagram</a></font></td>
+      <td bgcolor="#FF00FF"><font size="+2" color="#FFFFFF"><a href="https://vimeo.com/tastyheavy" style="color: #FFFF00;">Vimeo</a></font></td>
+    </tr>
+  </table>
+  <hr>
+  <p><font size="+1"><a href="guestbook.html" style="color: #FFFFFF;">Sign Our Guestbook!</a></font></p>
+  <br>
+  <!-- Geocities-style email link with box -->
+  <p class="email-box"><blink><a href="mailto:hello@tastyheavy.com" style="color: #FFFF00;">Email me!</a></blink></p>
+
+  <p><font face="Courier New" color="#00FFFF" size="+1">© 2025 Tasty Heavy</font></p>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
